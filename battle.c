@@ -43,8 +43,9 @@ struct client {
      * client is the active_player
      */
     int active;
-
+    /* active player's message when they choose to speak */
     char *message;
+    /* index for active_player's message */
     int i;
 };
 
